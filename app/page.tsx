@@ -188,7 +188,7 @@ export default function Home() {
                   models. OLM is designed for researchers who want full control
                   over their architectures without unnecessary abstraction.
                 </p>
-                <Link href="/openlm" className="hover-link">
+                <Link href="https://openlanguagemodel.github.io/openlanguagemodel/" className="hover-link">
                   READ FULL DOCUMENTATION ↗
                 </Link>
               </article>
@@ -278,7 +278,7 @@ export default function Home() {
             <a href="#interests">Interests</a>
             <a href="#artifacts">Artifacts</a>
             <a href="#collective">Collective</a>
-            <Link href="/openlm">OLM ↗</Link>
+            <Link href="https://openlanguagemodel.github.io/openlanguagemodel/">OLM ↗</Link>
           </div>
           <div className="footer-meta">
             <div>Sponsor: SIMBO.AI</div>
