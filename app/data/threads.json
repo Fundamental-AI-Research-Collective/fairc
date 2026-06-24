@@ -14,13 +14,17 @@
   {
     "slug": "token-deep-memory",
     "cardTitle": "Token Deep Memory",
-    "tag": "ARCHITECTURE",
-    "summary": "A dynamic memory architecture that mixes full-fidelity tokens with compressed gist embeddings to achieve massive context at sub-quadratic cost.",
+    "tag": "ARCHITECTURE / EFFICIENCY",
+    "summary": "From gist embeddings to token averaging — compressing the input sequence before the transformer sees it. A k=4 model reaches the same loss as baseline at 42% fewer FLOPs, and linear probes reveal why: averaging trades syntax for semantics.",
     "pageTitle": "Token Deep\nMemory.",
     "meta": ["THREAD: TOKEN MEMORY", "DOMAIN: ARCHITECTURE", "STATUS: ACTIVE"],
     "posts": [
       "01-the-quadratic-wall.md",
-      "02-gist-embeddings.md"
+      "02-gist-embeddings.md",
+      "03-token-averaging.md",
+      "04-the-42-percent-result.md",
+      "05-what-averaging-destroys.md",
+      "06-next-steps.md"
     ]
   },
   {
