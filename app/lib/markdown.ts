@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
 import rehypeKatex from "rehype-katex";
@@ -25,6 +26,7 @@ export async function getThreadPosts(
       const raw = fs.readFileSync(filePath, "utf-8");
       const { data, content } = matter(raw);
       const processed = await remark()
+        .use(remarkGfm)
         .use(remarkMath)
         .use(remarkRehype, { allowDangerousHtml: true })
         .use(rehypeKatex)

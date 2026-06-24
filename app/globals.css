@@ -657,6 +657,38 @@ code.inline {
     font-style: italic;
 }
 
+/* Tables */
+.prose table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    margin: 1.5rem 0;
+    line-height: 1.5;
+}
+
+.prose thead {
+    border-bottom: 2px solid var(--border-color);
+}
+
+.prose th {
+    text-align: left;
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+    color: var(--text-main);
+    white-space: nowrap;
+}
+
+.prose td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #e4e4de;
+    color: #444;
+}
+
+.prose tbody tr:hover {
+    background: rgba(0, 0, 0, 0.015);
+}
+
 /* KaTeX math styling */
 .prose .katex {
     font-size: 1.1em;

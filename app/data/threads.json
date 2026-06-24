@@ -37,5 +37,20 @@
       "04-why-rl-fails.md",
       "05-research-directions.md"
     ]
+  },
+  {
+    "slug": "mixture-of-wide-experts",
+    "cardTitle": "Mixture of Wide Experts",
+    "tag": "ARCHITECTURE / INTERPRETABILITY",
+    "summary": "A routed architecture where experts read the full residual stream but write to disjoint slices — removing cross-expert interference by construction and producing natively interpretable representations that rival post-hoc SAEs.",
+    "pageTitle": "Mixture of\nWide Experts.",
+    "meta": ["THREAD: MOWE", "DOMAIN: ARCHITECTURE", "STATUS: ACTIVE"],
+    "posts": [
+      "01-sparse-brains-dense-hardware.md",
+      "02-interference-geometry.md",
+      "03-toy-and-vision-results.md",
+      "04-zero-cross-expert-interference.md",
+      "05-language-models.md"
+    ]
   }
 ]
