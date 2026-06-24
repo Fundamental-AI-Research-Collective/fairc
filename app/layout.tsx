@@ -55,13 +55,13 @@ export default function RootLayout({
       <body>
         <div className="site-wrapper">
           <div style={{ position: "fixed", top: "1.5rem", right: "2rem", zIndex: 200, opacity: 0.9 }}>
-            <Image
+            {/* <Image
               src="/assets/fairc-logo.png"
               alt="FAIRC"
               width={200}
               height={100}
               priority
-            />
+            /> */}
           </div>
           {children}
         </div>
