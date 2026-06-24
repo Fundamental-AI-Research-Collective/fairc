@@ -634,6 +634,47 @@ code.inline {
     font-size: 0.9em;
 }
 
+.prose img {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0 0.75rem;
+    border: 1px solid #e0e0dc;
+    border-radius: 2px;
+    background: #fff;
+    padding: 0.75rem;
+}
+
+.prose img + em,
+.prose p:has(img) + p > em:first-child {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: -0.25rem 0 2rem;
+    padding-left: 0.75rem;
+    border-left: 2px solid #ddd;
+    font-style: italic;
+}
+
+/* KaTeX math styling */
+.prose .katex {
+    font-size: 1.1em;
+    color: var(--text-main);
+}
+
+.prose .katex-display {
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+    background: #fff;
+    border-left: 3px solid var(--red-accent);
+    overflow-x: auto;
+}
+
+.prose .katex-display > .katex {
+    font-size: 1.21em;
+}
+
 /* Two-col audience grid (OLM page) */
 .audience-grid {
     display: grid;

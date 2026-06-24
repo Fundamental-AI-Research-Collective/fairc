@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Playfair_Display } from "next/font/google";
 import Image from "next/image";
+import "katex/dist/katex.min.css";
 import "./globals.css";
 
 const inter = Inter({

@@ -22,5 +22,20 @@
       "01-the-quadratic-wall.md",
       "02-gist-embeddings.md"
     ]
+  },
+  {
+    "slug": "learned-efficiency-pruning",
+    "cardTitle": "Learned Efficiency Pruning",
+    "tag": "EFFICIENCY / PRUNING",
+    "summary": "A weight-conditioned hypernetwork that reads out a network's redundancy directly from its weights — no data, no gradients — pruning 60–85% of neurons while strictly dominating classical heuristics.",
+    "pageTitle": "Learned Efficiency\nPruning.",
+    "meta": ["THREAD: LEP", "DOMAIN: EFFICIENCY", "STATUS: ACTIVE"],
+    "posts": [
+      "01-the-weight-readout-hypothesis.md",
+      "02-the-method.md",
+      "03-core-results.md",
+      "04-why-rl-fails.md",
+      "05-research-directions.md"
+    ]
   }
 ]

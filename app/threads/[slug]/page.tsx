@@ -19,7 +19,7 @@ export async function generateMetadata({
   const thread = threads.find((t) => t.slug === slug);
   if (!thread) return {};
   return {
-    title: `${thread.cardTitle} — FAIRC`,
+    title: thread.cardTitle,
     description: thread.summary,
   };
 }
